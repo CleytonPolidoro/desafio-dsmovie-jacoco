@@ -10,10 +10,11 @@ public class ScoreFactory {
 	public static Double scoreValue = 4.5;
 	
 	public static ScoreEntity createScoreEntity() {
+
 		MovieEntity movie = MovieFactory.createMovieEntity();
 		UserEntity user = UserFactory.createUserEntity();
 		ScoreEntity score = new ScoreEntity();
-		
+
 		score.setMovie(movie);
 		score.setUser(user);
 		score.setValue(scoreValue);

@@ -1,5 +1,6 @@
 package com.devsuperior.dsmovie.services;
 
+import com.devsuperior.dsmovie.entities.ScoreEntityPK;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
